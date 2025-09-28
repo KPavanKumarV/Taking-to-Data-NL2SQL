@@ -1,8 +1,11 @@
 NL2SQL Employee Database Query Tool 🚀
+
 This notebook demonstrates a Natural Language to SQL (NL2SQL) translation tool for querying an employee database. It allows users to retrieve information from the database using plain English questions, abstracting away the need for SQL knowledge.
 
 Importance of NL2SQL ✨
+
 NL2SQL is a critical technology that bridges the gap between human language and structured databases. Its importance lies in:
+
 1)Accessibility: Empowering non-technical users to access and analyze data without writing complex SQL queries. 👩‍💻👨‍💻
 
 2)Efficiency: Speeding up data retrieval and analysis by allowing users to ask questions directly. ⏱️

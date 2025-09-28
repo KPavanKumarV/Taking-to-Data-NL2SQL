@@ -4,16 +4,22 @@ This notebook demonstrates a Natural Language to SQL (NL2SQL) translation tool f
 Importance of NL2SQL ✨
 NL2SQL is a critical technology that bridges the gap between human language and structured databases. Its importance lies in:
 1)Accessibility: Empowering non-technical users to access and analyze data without writing complex SQL queries. 👩‍💻👨‍💻
+
 2)Efficiency: Speeding up data retrieval and analysis by allowing users to ask questions directly. ⏱️
+
 3)Democratization of Data: Making data accessible to a wider audience within an organization, fostering data-driven decision-making. 📊
+
 4)Future Trends: NL2SQL is a key component in the future of data interaction, enabling more intuitive interfaces for databases, business intelligence tools, and data analysis platforms. It is increasingly being integrated into various applications, including virtual assistants and AI-powered data platforms. 🤖
 
 Libraries Used 📚
 This project utilizes the following key Python libraries:
 
 sqlite3: Provides an interface for interacting with SQLite databases, allowing for database creation, table definition, and query execution. 💾
+
 pandas: A powerful data manipulation and analysis library. It is used here for reading data from CSV files, data cleaning, type conversion, and loading data into the SQLite database. 🐼
+
 google-generativeai: This library is used to interact with the Google AI Gemini API, which serves as the core of the NL2SQL translation engine. It takes the user's natural language query and the database schema as input and generates the corresponding SQL query. ✨
+
 Data Source 🌐
 The employee data used in this notebook is generated using Mockaroo, a tool for generating realistic test data. The data is fetched via a curl command and saved as a CSV file (Employee_data.csv). 📝
 

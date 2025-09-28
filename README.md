@@ -19,8 +19,12 @@ The employee data used in this notebook is generated using Mockaroo, a tool for 
 
 How it Works 🤔
 1)Data Generation and Loading: Employee data is generated using Mockaroo and loaded into an SQLite database named ecommerce.db. 📥
+
 2)Database Schema: A clear schema for the MOCK_DATA table is defined, outlining the structure and data types of the employee information. 📜
+
 3)NL2SQL Translation: The google-generativeai library, powered by the Gemini API, is used to interpret natural language questions and translate them into executable SQLite queries based on the provided database schema. 🧠➡️💻
+
 4)Query Execution: The generated SQL queries are executed against the SQLite database using the sqlite3 library. ▶️
+
 5)Results: The results of the SQL queries are returned and displayed, typically as a pandas DataFrame for easy viewing and further analysis. ✅
 This notebook provides a foundational example of how NL2SQL can be implemented to create a more intuitive and accessible way to interact with databases. 👍
